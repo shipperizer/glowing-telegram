@@ -24,7 +24,8 @@ defmodule GlowingTelegram.MixProject do
     [
       {:poison, "~> 3.0"},
       {:plug, "~> 1.6"},
-      {:cowboy, "~> 2.4"}
+      {:cowboy, "~> 2.4"},
+      {:distillery, "~> 2.0"}
     ]
   end
 end
